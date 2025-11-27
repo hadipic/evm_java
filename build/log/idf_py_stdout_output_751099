@@ -1,0 +1,117 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c: In function 'test_rgb_raw_data':
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:627:17: warning: initialization of 'const uint8_t *' {aka 'const unsigned char *'} from incompatible pointer type 'const lv_color_t *' {aka 'const lv_color16_t *'} [-Wincompatible-pointer-types]
+  627 |         .data = pixel_data,
+      |                 ^~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:627:17: note: (near initialization for 'img_dsc.data')
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:517:13: warning: 'create_analog_clock_with_images' defined but not used [-Wunused-function]
+  517 | static void create_analog_clock_with_images(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:430:13: warning: 'test_basic_colors_immediately1' defined but not used [-Wunused-function]
+  430 | static void test_basic_colors_immediately1(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:194:13: warning: 'get_real_app_name' defined but not used [-Wunused-function]
+  194 | static void get_real_app_name(const char *file_path, char *display_name) {
+      |             ^~~~~~~~~~~~~~~~~
+[5/10] Linking C static library esp-idf/app_manager/libapp_manager.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable evm_java_launcher.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[9/10] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x154450 bytes. Smallest app partition is 0x300000 bytes. 0x1abbb0 bytes (56%) free.
+[9/10] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00164fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 0.9 seconds (effective 228.0 kbit/s)...
+Hash of data verified.
+Compressed 1393744 bytes to 850096...
+Writing at 0x00010000... (1 %)
+Writing at 0x000207bc... (3 %)
+Writing at 0x0002744e... (5 %)
+Writing at 0x00031854... (7 %)
+Writing at 0x0003a0ad... (9 %)
+Writing at 0x000447b9... (11 %)
+Writing at 0x0004985b... (13 %)
+Writing at 0x00051429... (15 %)
+Writing at 0x00056e48... (17 %)
+Writing at 0x0005e124... (19 %)
+Writing at 0x00064316... (21 %)
+Writing at 0x00069cd1... (23 %)
+Writing at 0x0006ff2b... (25 %)
+Writing at 0x00075ac6... (26 %)
+Writing at 0x0007be6f... (28 %)
+Writing at 0x0008204b... (30 %)
+Writing at 0x00087aa1... (32 %)
+Writing at 0x0008f02d... (34 %)
+Writing at 0x00094a12... (36 %)
+Writing at 0x0009aa43... (38 %)
+Writing at 0x000a047e... (40 %)
+Writing at 0x000a698f... (42 %)
+Writing at 0x000acefa... (44 %)
+Writing at 0x000b3f80... (46 %)
+Writing at 0x000ba852... (48 %)
+Writing at 0x000c0a71... (50 %)
+Writing at 0x000c6a7b... (51 %)
+Writing at 0x000cc777... (53 %)
+Writing at 0x000d24ea... (55 %)
+Writing at 0x000d85f3... (57 %)
+Writing at 0x000de418... (59 %)
+Writing at 0x000e36bb... (61 %)
+Writing at 0x000e8d20... (63 %)
+Writing at 0x000ee0af... (65 %)
+Writing at 0x000f3736... (67 %)
+Writing at 0x000f8e78... (69 %)
+Writing at 0x000fe6eb... (71 %)
+Writing at 0x00104501... (73 %)
+Writing at 0x00109dc0... (75 %)
+Writing at 0x0010fcf0... (76 %)
+Writing at 0x001162f6... (78 %)
+Writing at 0x0011bdbf... (80 %)
+Writing at 0x00121d38... (82 %)
+Writing at 0x00129f2e... (84 %)
+Writing at 0x0013233e... (86 %)
+Writing at 0x0013a4a9... (88 %)
+Writing at 0x001409f6... (90 %)
+Writing at 0x00148919... (92 %)
+Writing at 0x0014ebaa... (94 %)
+Writing at 0x0015411f... (96 %)
+Writing at 0x00159caa... (98 %)
+Writing at 0x0015f612... (100 %)
+Wrote 1393744 bytes (850096 compressed) at 0x00010000 in 20.8 seconds (effective 535.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 345.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

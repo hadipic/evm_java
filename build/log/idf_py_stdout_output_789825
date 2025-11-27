@@ -1,0 +1,149 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+Processing 1 dependencies:
+[1/1] idf (5.1.0)
+-- Project sdkconfig file /home/shop-electronic/project/esp32/evm_java/sdkconfig
+-- App "evm_java_launcher" version: 1
+-- Adding linker script /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_manager app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py evm_loader evm_modules fatfs freertos hal hardware_manager heap http_parser idf_test ieee802154 json log lv-fs lvgl lwip main mbedtls mongoose mqtt mujs newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc shared_hardware soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/shop-electronic/project/esp32/evm_java/components/app_manager /home/shop-electronic/esp/esp-idf/components/app_trace /home/shop-electronic/esp/esp-idf/components/app_update /home/shop-electronic/esp/esp-idf/components/bootloader /home/shop-electronic/esp/esp-idf/components/bootloader_support /home/shop-electronic/esp/esp-idf/components/bt /home/shop-electronic/esp/esp-idf/components/cmock /home/shop-electronic/esp/esp-idf/components/console /home/shop-electronic/esp/esp-idf/components/cxx /home/shop-electronic/esp/esp-idf/components/driver /home/shop-electronic/esp/esp-idf/components/efuse /home/shop-electronic/esp/esp-idf/components/esp-tls /home/shop-electronic/esp/esp-idf/components/esp_adc /home/shop-electronic/esp/esp-idf/components/esp_app_format /home/shop-electronic/esp/esp-idf/components/esp_common /home/shop-electronic/esp/esp-idf/components/esp_eth /home/shop-electronic/esp/esp-idf/components/esp_event /home/shop-electronic/esp/esp-idf/components/esp_gdbstub /home/shop-electronic/esp/esp-idf/components/esp_hid /home/shop-electronic/esp/esp-idf/components/esp_http_client /home/shop-electronic/esp/esp-idf/components/esp_http_server /home/shop-electronic/esp/esp-idf/components/esp_https_ota /home/shop-electronic/esp/esp-idf/components/esp_https_server /home/shop-electronic/esp/esp-idf/components/esp_hw_support /home/shop-electronic/esp/esp-idf/components/esp_lcd /home/shop-electronic/esp/esp-idf/components/esp_local_ctrl /home/shop-electronic/esp/esp-idf/components/esp_netif /home/shop-electronic/esp/esp-idf/components/esp_netif_stack /home/shop-electronic/esp/esp-idf/components/esp_partition /home/shop-electronic/esp/esp-idf/components/esp_phy /home/shop-electronic/esp/esp-idf/components/esp_pm /home/shop-electronic/esp/esp-idf/components/esp_psram /home/shop-electronic/esp/esp-idf/components/esp_ringbuf /home/shop-electronic/esp/esp-idf/components/esp_rom /home/shop-electronic/esp/esp-idf/components/esp_system /home/shop-electronic/esp/esp-idf/components/esp_timer /home/shop-electronic/esp/esp-idf/components/esp_wifi /home/shop-electronic/esp/esp-idf/components/espcoredump /home/shop-electronic/esp/esp-idf/components/esptool_py /home/shop-electronic/project/esp32/evm_java/components/evm_loader /home/shop-electronic/project/esp32/evm_java/components/evm_modules /home/shop-electronic/esp/esp-idf/components/fatfs /home/shop-electronic/esp/esp-idf/components/freertos /home/shop-electronic/esp/esp-idf/components/hal /home/shop-electronic/project/esp32/evm_java/components/hardware_manager /home/shop-electronic/esp/esp-idf/components/heap /home/shop-electronic/esp/esp-idf/components/http_parser /home/shop-electronic/esp/esp-idf/components/idf_test /home/shop-electronic/esp/esp-idf/components/ieee802154 /home/shop-electronic/esp/esp-idf/components/json /home/shop-electronic/esp/esp-idf/components/log /home/shop-electronic/project/esp32/evm_java/components/lv-fs /home/shop-electronic/project/esp32/evm_java/components/lvgl /home/shop-electronic/esp/esp-idf/components/lwip /home/shop-electronic/project/esp32/evm_java/main /home/shop-electronic/esp/esp-idf/components/mbedtls /home/shop-electronic/project/esp32/evm_java/components/mongoose /home/shop-electronic/esp/esp-idf/components/mqtt /home/shop-electronic/project/esp32/evm_java/components/mujs /home/shop-electronic/esp/esp-idf/components/newlib /home/shop-electronic/esp/esp-idf/components/nvs_flash /home/shop-electronic/esp/esp-idf/components/openthread /home/shop-electronic/esp/esp-idf/components/partition_table /home/shop-electronic/esp/esp-idf/components/perfmon /home/shop-electronic/esp/esp-idf/components/protobuf-c /home/shop-electronic/esp/esp-idf/components/protocomm /home/shop-electronic/esp/esp-idf/components/pthread /home/shop-electronic/esp/esp-idf/components/sdmmc /home/shop-electronic/project/esp32/evm_java/components/shared_hardware /home/shop-electronic/esp/esp-idf/components/soc /home/shop-electronic/esp/esp-idf/components/spi_flash /home/shop-electronic/esp/esp-idf/components/spiffs /home/shop-electronic/esp/esp-idf/components/tcp_transport /home/shop-electronic/esp/esp-idf/components/ulp /home/shop-electronic/esp/esp-idf/components/unity /home/shop-electronic/esp/esp-idf/components/usb /home/shop-electronic/esp/esp-idf/components/vfs /home/shop-electronic/esp/esp-idf/components/wear_levelling /home/shop-electronic/esp/esp-idf/components/wifi_provisioning /home/shop-electronic/esp/esp-idf/components/wpa_supplicant /home/shop-electronic/esp/esp-idf/components/xtensa
+-- Configuring done (4.4s)
+-- Generating done (0.7s)
+-- Build files have been written to: /home/shop-electronic/project/esp32/evm_java/build
+[1/19] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj
+FAILED: esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj 
+/home/shop-electronic/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-3141-g57c4508eb3\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/shop-electronic/project/esp32/evm_java/build/config -I/home/shop-electronic/project/esp32/evm_java/components/lv-fs -I/home/shop-electronic/esp/esp-idf/components/newlib/platform_include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/shop-electronic/esp/esp-idf/components/heap/include -I/home/shop-electronic/esp/esp-idf/components/log/include -I/home/shop-electronic/esp/esp-idf/components/soc/include -I/home/shop-electronic/esp/esp-idf/components/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/soc/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/include -I/home/shop-electronic/esp/esp-idf/components/hal/platform_port/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_rom/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_common/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/soc -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/include/private -I/home/shop-electronic/esp/esp-idf/components/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/xtensa/esp32/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps/sntp -I/home/shop-electronic/esp/esp-idf/components/lwip/lwip/src/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/freertos/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/shop-electronic/project/esp32/evm_java/components/lvgl -I/home/shop-electronic/project/esp32/evm_java/components/lvgl/src -I/home/shop-electronic/esp/esp-idf/components/fatfs/diskio -I/home/shop-electronic/esp/esp-idf/components/fatfs/vfs -I/home/shop-electronic/esp/esp-idf/components/fatfs/src -I/home/shop-electronic/esp/esp-idf/components/wear_levelling/include -I/home/shop-electronic/esp/esp-idf/components/esp_partition/include -I/home/shop-electronic/esp/esp-idf/components/sdmmc/include -I/home/shop-electronic/esp/esp-idf/components/driver/include -I/home/shop-electronic/esp/esp-idf/components/driver/deprecated -I/home/shop-electronic/esp/esp-idf/components/driver/esp32/include -I/home/shop-electronic/esp/esp-idf/components/esp_pm/include -I/home/shop-electronic/esp/esp-idf/components/esp_ringbuf/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw -Og -fmacro-prefix-map=/home/shop-electronic/project/esp32/evm_java=. -fmacro-prefix-map=/home/shop-electronic/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj -MF esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj.d -o esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj -c /home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c: In function 'lv_fs_if_fatfs_init':
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:84:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'file_size'
+   84 |     fs_drv.file_size = sizeof(file_t);
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:86:20: warning: assignment to 'void * (*)(struct _lv_fs_drv_t *, const char *, lv_fs_mode_t)' {aka 'void * (*)(struct _lv_fs_drv_t *, const char *, unsigned char)'} from incompatible pointer type 'lv_fs_res_t (*)(lv_fs_drv_t *, void *, const char *, lv_fs_mode_t)' {aka 'unsigned char (*)(struct _lv_fs_drv_t *, void *, const char *, unsigned char)'} [-Wincompatible-pointer-types]
+   86 |     fs_drv.open_cb = fs_open;
+      |                    ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:90:20: warning: assignment to 'lv_fs_res_t (*)(struct _lv_fs_drv_t *, void *, uint32_t,  lv_fs_whence_t)' {aka 'unsigned char (*)(struct _lv_fs_drv_t *, void *, long unsigned int,  lv_fs_whence_t)'} from incompatible pointer type 'lv_fs_res_t (*)(lv_fs_drv_t *, void *, uint32_t)' {aka 'unsigned char (*)(struct _lv_fs_drv_t *, void *, long unsigned int)'} [-Wincompatible-pointer-types]
+   90 |     fs_drv.seek_cb = fs_seek;
+      |                    ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:92:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'free_space_cb'
+   92 |     fs_drv.free_space_cb = fs_free;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:93:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'size_cb'
+   93 |     fs_drv.size_cb = fs_size;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:94:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'remove_cb'
+   94 |     fs_drv.remove_cb = fs_remove;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:95:12: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'rename_cb'; did you mean 'ready_cb'?
+   95 |     fs_drv.rename_cb = fs_rename;
+      |            ^~~~~~~~~
+      |            ready_cb
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:96:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'trunc_cb'
+   96 |     fs_drv.trunc_cb = fs_trunc;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:98:11: error: 'lv_fs_drv_t' {aka 'struct _lv_fs_drv_t'} has no member named 'rddir_size'
+   98 |     fs_drv.rddir_size = sizeof(dir_t);
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:100:24: warning: assignment to 'void * (*)(struct _lv_fs_drv_t *, const char *)' from incompatible pointer type 'lv_fs_res_t (*)(lv_fs_drv_t *, void *, const char *)' {aka 'unsigned char (*)(struct _lv_fs_drv_t *, void *, const char *)'} [-Wincompatible-pointer-types]
+  100 |     fs_drv.dir_open_cb = fs_dir_open;
+      |                        ^
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c: In function 'scan_files':
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:382:38: error: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'FSIZE_t' {aka 'long unsigned int'} [-Werror=format=]
+  382 |             printf("  %s  ---- size %u \r\n", fno.fname, fno.fsize);
+      |                                     ~^                   ~~~~~~~~~
+      |                                      |                      |
+      |                                      unsigned int           FSIZE_t {aka long unsigned int}
+      |                                     %lu
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:388:38: error: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'FSIZE_t' {aka 'long unsigned int'} [-Werror=format=]
+  388 |             printf("  %s  ---- size %u \r\n", fno1.fname, fno1.fsize);
+      |                                     ~^                    ~~~~~~~~~~
+      |                                      |                        |
+      |                                      unsigned int             FSIZE_t {aka long unsigned int}
+      |                                     %lu
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:358:12: warning: unused variable 'i' [-Wunused-variable]
+  358 |        int i;
+      |            ^
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/lv-fs/lv_fs_fatfs.c:111:13: warning: 'fs_init' defined but not used [-Wunused-function]
+  111 | static void fs_init(void)
+      |             ^~~~~~~
+cc1: some warnings being treated as errors
+[2/19] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[3/19] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_if.c.obj
+[4/19] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_pc.c.obj
+[5/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/shop-electronic/project/esp32/evm_java/main/main.c:110:13: warning: 'simple_mqtt_test' defined but not used [-Wunused-function]
+  110 | static void simple_mqtt_test(void) {
+      |             ^~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:76:18: warning: 'initialize_mqtt_broker' defined but not used [-Wunused-function]
+   76 | static esp_err_t initialize_mqtt_broker(void) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:60:13: warning: 'publish_mqtt_status' defined but not used [-Wunused-function]
+   60 | static void publish_mqtt_status(void) {
+      |             ^~~~~~~~~~~~~~~~~~~
+[6/19] Building C object esp-idf/evm_loader/CMakeFiles/__idf_evm_loader.dir/evm_loader.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_loader_init':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:351:30: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  351 |     mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                              ^~~~~~~~~~
+      |                              |
+      |                              void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_app_task_func':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:482:34: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  482 |         mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                  ^~~~~~~~~~
+      |                                  |
+      |                                  void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_validate_syntax':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:704:40: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  704 |     js_State* temp_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                        ^~~~~~~~~~
+      |                                        |
+      |                                        void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:798:18: warning: 'evm_validate_app_file' defined but not used [-Wunused-function]
+  798 | static esp_err_t evm_validate_app_file(const char* file_path) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+[7/19] Building C object esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj
+FAILED: esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj 
+/home/shop-electronic/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-3141-g57c4508eb3\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/shop-electronic/project/esp32/evm_java/build/config -I/home/shop-electronic/project/esp32/evm_java/components/app_manager/include -I/home/shop-electronic/esp/esp-idf/components/newlib/platform_include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/shop-electronic/esp/esp-idf/components/heap/include -I/home/shop-electronic/esp/esp-idf/components/log/include -I/home/shop-electronic/esp/esp-idf/components/soc/include -I/home/shop-electronic/esp/esp-idf/components/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/soc/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/include -I/home/shop-electronic/esp/esp-idf/components/hal/platform_port/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_rom/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_common/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/soc -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/include/private -I/home/shop-electronic/esp/esp-idf/components/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/xtensa/esp32/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps/sntp -I/home/shop-electronic/esp/esp-idf/components/lwip/lwip/src/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/freertos/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/shop-electronic/project/esp32/evm_java/components/evm_loader/include -I/home/shop-electronic/project/esp32/evm_java/components/mujs -I/home/shop-electronic/esp/esp-idf/components/driver/include -I/home/shop-electronic/esp/esp-idf/components/driver/deprecated -I/home/shop-electronic/esp/esp-idf/components/driver/esp32/include -I/home/shop-electronic/esp/esp-idf/components/esp_pm/include -I/home/shop-electronic/esp/esp-idf/components/esp_ringbuf/include -I/home/shop-electronic/project/esp32/evm_java/components/evm_modules/include -I/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include -I/home/shop-electronic/esp/esp-idf/components/fatfs/diskio -I/home/shop-electronic/esp/esp-idf/components/fatfs/vfs -I/home/shop-electronic/esp/esp-idf/components/fatfs/src -I/home/shop-electronic/esp/esp-idf/components/wear_levelling/include -I/home/shop-electronic/esp/esp-idf/components/esp_partition/include -I/home/shop-electronic/esp/esp-idf/components/sdmmc/include -I/home/shop-electronic/project/esp32/evm_java/components/lvgl -I/home/shop-electronic/project/esp32/evm_java/components/lvgl/src -I/home/shop-electronic/project/esp32/evm_java/components/mongoose/include -I/home/shop-electronic/esp/esp-idf/components/esp_timer/include -I/home/shop-electronic/esp/esp-idf/components/json/cJSON -I/home/shop-electronic/esp/esp-idf/components/nvs_flash/include -I/home/shop-electronic/esp/esp-idf/components/spi_flash/include -I/home/shop-electronic/esp/esp-idf/components/esp_wifi/include -I/home/shop-electronic/esp/esp-idf/components/esp_event/include -I/home/shop-electronic/esp/esp-idf/components/esp_phy/include -I/home/shop-electronic/esp/esp-idf/components/esp_phy/esp32/include -I/home/shop-electronic/esp/esp-idf/components/esp_netif/include -I/home/shop-electronic/project/esp32/evm_java/components/shared_hardware/include -I/home/shop-electronic/esp/esp-idf/components/esp_psram/include -I/home/shop-electronic/project/esp32/evm_java/components/lv-fs -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw -Og -fmacro-prefix-map=/home/shop-electronic/project/esp32/evm_java=. -fmacro-prefix-map=/home/shop-electronic/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj -MF esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj.d -o esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj -c /home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c: In function 'guiTask':
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:693:4: error: implicit declaration of function 'lv_fs_if_fatfs_init'; did you mean 'lv_fs_fatfs_init'? [-Werror=implicit-function-declaration]
+  693 |    lv_fs_if_fatfs_init();
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    lv_fs_fatfs_init
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:517:13: warning: 'create_analog_clock_with_images' defined but not used [-Wunused-function]
+  517 | static void create_analog_clock_with_images(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:430:13: warning: 'test_basic_colors_immediately1' defined but not used [-Wunused-function]
+  430 | static void test_basic_colors_immediately1(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:194:13: warning: 'get_real_app_name' defined but not used [-Wunused-function]
+  194 | static void get_real_app_name(const char *file_path, char *display_name) {
+      |             ^~~~~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

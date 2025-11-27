@@ -1,0 +1,54 @@
+[1/42] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_btn.c.obj
+[3/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj
+FAILED: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj 
+/home/shop-electronic/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-3141-g57c4508eb3\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/shop-electronic/project/esp32/evm_java/build/config -I/home/shop-electronic/project/esp32/evm_java/components/lvgl -I/home/shop-electronic/project/esp32/evm_java/components/lvgl/src -I/home/shop-electronic/esp/esp-idf/components/newlib/platform_include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/shop-electronic/esp/esp-idf/components/heap/include -I/home/shop-electronic/esp/esp-idf/components/log/include -I/home/shop-electronic/esp/esp-idf/components/soc/include -I/home/shop-electronic/esp/esp-idf/components/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/soc/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/include -I/home/shop-electronic/esp/esp-idf/components/hal/platform_port/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_rom/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_common/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/soc -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/include/private -I/home/shop-electronic/esp/esp-idf/components/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/xtensa/esp32/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps/sntp -I/home/shop-electronic/esp/esp-idf/components/lwip/lwip/src/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/freertos/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/shop-electronic/esp/esp-idf/components/fatfs/diskio -I/home/shop-electronic/esp/esp-idf/components/fatfs/vfs -I/home/shop-electronic/esp/esp-idf/components/fatfs/src -I/home/shop-electronic/esp/esp-idf/components/wear_levelling/include -I/home/shop-electronic/esp/esp-idf/components/esp_partition/include -I/home/shop-electronic/esp/esp-idf/components/sdmmc/include -I/home/shop-electronic/esp/esp-idf/components/driver/include -I/home/shop-electronic/esp/esp-idf/components/driver/deprecated -I/home/shop-electronic/esp/esp-idf/components/driver/esp32/include -I/home/shop-electronic/esp/esp-idf/components/esp_pm/include -I/home/shop-electronic/esp/esp-idf/components/esp_ringbuf/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw -Og -fmacro-prefix-map=/home/shop-electronic/project/esp32/evm_java=. -fmacro-prefix-map=/home/shop-electronic/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj -MF esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj.d -o esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj -c /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/../lv_conf_internal.h:39,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.h:16,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:10:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c: In function 'lv_mem_alloc':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/lv_conf.h:55:39: error: implicit declaration of function 'lvgl_custom_malloc' [-Werror=implicit-function-declaration]
+   55 |     #define LV_MEM_CUSTOM_ALLOC(size) lvgl_custom_malloc(size)
+      |                                       ^~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:136:20: note: in expansion of macro 'LV_MEM_CUSTOM_ALLOC'
+  136 |     void * alloc = LV_MEM_CUSTOM_ALLOC(size);
+      |                    ^~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/lv_conf.h:55:39: warning: initialization of 'void *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   55 |     #define LV_MEM_CUSTOM_ALLOC(size) lvgl_custom_malloc(size)
+      |                                       ^~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:136:20: note: in expansion of macro 'LV_MEM_CUSTOM_ALLOC'
+  136 |     void * alloc = LV_MEM_CUSTOM_ALLOC(size);
+      |                    ^~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c: In function 'lv_mem_free':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/lv_conf.h:56:37: error: implicit declaration of function 'lvgl_custom_free' [-Werror=implicit-function-declaration]
+   56 |     #define LV_MEM_CUSTOM_FREE(ptr) lvgl_custom_free(ptr)
+      |                                     ^~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:183:5: note: in expansion of macro 'LV_MEM_CUSTOM_FREE'
+  183 |     LV_MEM_CUSTOM_FREE(data);
+      |     ^~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c: In function 'lv_mem_realloc':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/lv_conf.h:57:50: error: implicit declaration of function 'lvgl_custom_realloc'; did you mean 'lv_mem_realloc'? [-Werror=implicit-function-declaration]
+   57 |     #define LV_MEM_CUSTOM_REALLOC(ptr, new_size) lvgl_custom_realloc(ptr, new_size)
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:208:20: note: in expansion of macro 'LV_MEM_CUSTOM_REALLOC'
+  208 |     void * new_p = LV_MEM_CUSTOM_REALLOC(data_p, new_size);
+      |                    ^~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/lv_conf.h:57:50: warning: initialization of 'void *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   57 |     #define LV_MEM_CUSTOM_REALLOC(ptr, new_size) lvgl_custom_realloc(ptr, new_size)
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/misc/lv_mem.c:208:20: note: in expansion of macro 'LV_MEM_CUSTOM_REALLOC'
+  208 |     void * new_p = LV_MEM_CUSTOM_REALLOC(data_p, new_size);
+      |                    ^~~~~~~~~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+[4/42] No install step for 'bootloader'
+[5/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_line.c.obj
+[6/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_checkbox.c.obj
+[7/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_img.c.obj
+[8/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_btnmatrix.c.obj
+[9/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_dropdown.c.obj
+[10/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_roller.c.obj
+[11/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_canvas.c.obj
+[12/42] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_label.c.obj
+ninja: build stopped: subcommand failed.

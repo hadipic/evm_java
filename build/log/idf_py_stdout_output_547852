@@ -1,0 +1,126 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c: In function 'test_images_with_scaling':
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:626:31: warning: passing argument 1 of 'lv_label_set_text' from incompatible pointer type [-Wincompatible-pointer-types]
+  626 |             lv_label_set_text(size_text, size_text);
+      |                               ^~~~~~~~~
+      |                               |
+      |                               char *
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:49,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:4:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/widgets/lv_label.h:101:35: note: expected 'lv_obj_t *' {aka 'struct _lv_obj_t *'} but argument is of type 'char *'
+  101 | void lv_label_set_text(lv_obj_t * obj, const char * text);
+      |                        ~~~~~~~~~~~^~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:596:17: warning: unused variable 'test_names' [-Wunused-variable]
+  596 |     const char* test_names[] = {"Watch (Scaled)", "Hour Hand"};
+      |                 ^~~~~~~~~~
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:428:13: warning: 'test_basic_colors_immediately1' defined but not used [-Wunused-function]
+  428 | static void test_basic_colors_immediately1(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:192:13: warning: 'get_real_app_name' defined but not used [-Wunused-function]
+  192 | static void get_real_app_name(const char *file_path, char *display_name) {
+      |             ^~~~~~~~~~~~~~~~~
+[5/10] Linking C static library esp-idf/app_manager/libapp_manager.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable evm_java_launcher.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[9/10] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x156f70 bytes. Smallest app partition is 0x300000 bytes. 0x1a9090 bytes (55%) free.
+[9/10] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00166fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 0.9 seconds (effective 223.7 kbit/s)...
+Hash of data verified.
+Compressed 1404784 bytes to 855643...
+Writing at 0x00010000... (1 %)
+Writing at 0x000207f1... (3 %)
+Writing at 0x00027b00... (5 %)
+Writing at 0x000317d9... (7 %)
+Writing at 0x00039723... (9 %)
+Writing at 0x000448e2... (11 %)
+Writing at 0x0004a27d... (13 %)
+Writing at 0x00051a9b... (15 %)
+Writing at 0x00059911... (16 %)
+Writing at 0x0005f7af... (18 %)
+Writing at 0x00065341... (20 %)
+Writing at 0x0006c9ac... (22 %)
+Writing at 0x000728e2... (24 %)
+Writing at 0x000782a5... (26 %)
+Writing at 0x0007e556... (28 %)
+Writing at 0x00083f34... (30 %)
+Writing at 0x00089e72... (32 %)
+Writing at 0x0009069b... (33 %)
+Writing at 0x000964c2... (35 %)
+Writing at 0x0009d4d6... (37 %)
+Writing at 0x000a36f1... (39 %)
+Writing at 0x000a945f... (41 %)
+Writing at 0x000aee12... (43 %)
+Writing at 0x000b4f17... (45 %)
+Writing at 0x000bb1d6... (47 %)
+Writing at 0x000c1fca... (49 %)
+Writing at 0x000c8d00... (50 %)
+Writing at 0x000cf2c5... (52 %)
+Writing at 0x000d516e... (54 %)
+Writing at 0x000daeff... (56 %)
+Writing at 0x000e0bf4... (58 %)
+Writing at 0x000e6c54... (60 %)
+Writing at 0x000ecc91... (62 %)
+Writing at 0x000f24a9... (64 %)
+Writing at 0x000f7783... (66 %)
+Writing at 0x000fccd6... (67 %)
+Writing at 0x0010215b... (69 %)
+Writing at 0x00107858... (71 %)
+Writing at 0x0010d0e9... (73 %)
+Writing at 0x00112dfd... (75 %)
+Writing at 0x00118686... (77 %)
+Writing at 0x0011e3ab... (79 %)
+Writing at 0x00124b7d... (81 %)
+Writing at 0x0012a557... (83 %)
+Writing at 0x001301fc... (84 %)
+Writing at 0x001370aa... (86 %)
+Writing at 0x0013fb51... (88 %)
+Writing at 0x0014860d... (90 %)
+Writing at 0x0014f1c7... (92 %)
+Writing at 0x00154f34... (94 %)
+Writing at 0x0015a7cf... (96 %)
+Writing at 0x00160575... (98 %)
+Writing at 0x00165803... (100 %)
+Wrote 1404784 bytes (855643 compressed) at 0x00010000 in 20.8 seconds (effective 539.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 368.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

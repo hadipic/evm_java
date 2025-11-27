@@ -1,0 +1,322 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj
+FAILED: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj 
+/home/shop-electronic/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-3141-g57c4508eb3\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/shop-electronic/project/esp32/evm_java/build/config -I/home/shop-electronic/project/esp32/evm_java/components/lvgl -I/home/shop-electronic/project/esp32/evm_java/components/lvgl/src -I/home/shop-electronic/esp/esp-idf/components/newlib/platform_include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/shop-electronic/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/shop-electronic/esp/esp-idf/components/freertos/esp_additions/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/shop-electronic/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/shop-electronic/esp/esp-idf/components/heap/include -I/home/shop-electronic/esp/esp-idf/components/log/include -I/home/shop-electronic/esp/esp-idf/components/soc/include -I/home/shop-electronic/esp/esp-idf/components/soc/esp32 -I/home/shop-electronic/esp/esp-idf/components/soc/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/esp32/include -I/home/shop-electronic/esp/esp-idf/components/hal/include -I/home/shop-electronic/esp/esp-idf/components/hal/platform_port/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include -I/home/shop-electronic/esp/esp-idf/components/esp_rom/include/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_rom/esp32 -I/home/shop-electronic/esp/esp-idf/components/esp_common/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/include -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/soc -I/home/shop-electronic/esp/esp-idf/components/esp_system/port/include/private -I/home/shop-electronic/esp/esp-idf/components/xtensa/include -I/home/shop-electronic/esp/esp-idf/components/xtensa/esp32/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps -I/home/shop-electronic/esp/esp-idf/components/lwip/include/apps/sntp -I/home/shop-electronic/esp/esp-idf/components/lwip/lwip/src/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/freertos/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/shop-electronic/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/shop-electronic/esp/esp-idf/components/fatfs/diskio -I/home/shop-electronic/esp/esp-idf/components/fatfs/vfs -I/home/shop-electronic/esp/esp-idf/components/fatfs/src -I/home/shop-electronic/esp/esp-idf/components/wear_levelling/include -I/home/shop-electronic/esp/esp-idf/components/esp_partition/include -I/home/shop-electronic/esp/esp-idf/components/sdmmc/include -I/home/shop-electronic/esp/esp-idf/components/driver/include -I/home/shop-electronic/esp/esp-idf/components/driver/deprecated -I/home/shop-electronic/esp/esp-idf/components/driver/esp32/include -I/home/shop-electronic/esp/esp-idf/components/esp_pm/include -I/home/shop-electronic/esp/esp-idf/components/esp_ringbuf/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw -Og -fmacro-prefix-map=/home/shop-electronic/project/esp32/evm_java=. -fmacro-prefix-map=/home/shop-electronic/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj.d -o esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -c /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:41:8: error: unknown type name 'lv_fs_res_t'
+   41 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:41:29: error: unknown type name 'lv_fs_drv_t'
+   41 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:41:82: error: unknown type name 'lv_fs_mode_t'
+   41 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode);
+      |                                                                                  ^~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:42:8: error: unknown type name 'lv_fs_res_t'
+   42 | static lv_fs_res_t fs_close (lv_fs_drv_t * drv, void * file_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:42:30: error: unknown type name 'lv_fs_drv_t'
+   42 | static lv_fs_res_t fs_close (lv_fs_drv_t * drv, void * file_p);
+      |                              ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:43:8: error: unknown type name 'lv_fs_res_t'
+   43 | static lv_fs_res_t fs_read (lv_fs_drv_t * drv, void * file_p, void * buf, uint32_t btr, uint32_t * br);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:43:29: error: unknown type name 'lv_fs_drv_t'
+   43 | static lv_fs_res_t fs_read (lv_fs_drv_t * drv, void * file_p, void * buf, uint32_t btr, uint32_t * br);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:44:8: error: unknown type name 'lv_fs_res_t'
+   44 | static lv_fs_res_t fs_write(lv_fs_drv_t * drv, void * file_p, const void * buf, uint32_t btw, uint32_t * bw);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:44:29: error: unknown type name 'lv_fs_drv_t'
+   44 | static lv_fs_res_t fs_write(lv_fs_drv_t * drv, void * file_p, const void * buf, uint32_t btw, uint32_t * bw);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:45:8: error: unknown type name 'lv_fs_res_t'
+   45 | static lv_fs_res_t fs_seek (lv_fs_drv_t * drv, void * file_p, uint32_t pos);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:45:29: error: unknown type name 'lv_fs_drv_t'
+   45 | static lv_fs_res_t fs_seek (lv_fs_drv_t * drv, void * file_p, uint32_t pos);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:46:8: error: unknown type name 'lv_fs_res_t'
+   46 | static lv_fs_res_t fs_size (lv_fs_drv_t * drv, void * file_p, uint32_t * size_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:46:29: error: unknown type name 'lv_fs_drv_t'
+   46 | static lv_fs_res_t fs_size (lv_fs_drv_t * drv, void * file_p, uint32_t * size_p);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:47:8: error: unknown type name 'lv_fs_res_t'
+   47 | static lv_fs_res_t fs_tell (lv_fs_drv_t * drv, void * file_p, uint32_t * pos_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:47:29: error: unknown type name 'lv_fs_drv_t'
+   47 | static lv_fs_res_t fs_tell (lv_fs_drv_t * drv, void * file_p, uint32_t * pos_p);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:48:8: error: unknown type name 'lv_fs_res_t'
+   48 | static lv_fs_res_t fs_remove (lv_fs_drv_t * drv, const char *path);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:48:31: error: unknown type name 'lv_fs_drv_t'
+   48 | static lv_fs_res_t fs_remove (lv_fs_drv_t * drv, const char *path);
+      |                               ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:49:8: error: unknown type name 'lv_fs_res_t'
+   49 | static lv_fs_res_t fs_trunc (lv_fs_drv_t * drv, void * file_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:49:30: error: unknown type name 'lv_fs_drv_t'
+   49 | static lv_fs_res_t fs_trunc (lv_fs_drv_t * drv, void * file_p);
+      |                              ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:50:8: error: unknown type name 'lv_fs_res_t'
+   50 | static lv_fs_res_t fs_rename (lv_fs_drv_t * drv, const char * oldname, const char * newname);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:50:31: error: unknown type name 'lv_fs_drv_t'
+   50 | static lv_fs_res_t fs_rename (lv_fs_drv_t * drv, const char * oldname, const char * newname);
+      |                               ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:51:8: error: unknown type name 'lv_fs_res_t'
+   51 | static lv_fs_res_t fs_free (lv_fs_drv_t * drv, uint32_t * total_p, uint32_t * free_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:51:29: error: unknown type name 'lv_fs_drv_t'
+   51 | static lv_fs_res_t fs_free (lv_fs_drv_t * drv, uint32_t * total_p, uint32_t * free_p);
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:52:8: error: unknown type name 'lv_fs_res_t'
+   52 | static lv_fs_res_t fs_dir_open (lv_fs_drv_t * drv, void * dir_p, const char *path);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:52:33: error: unknown type name 'lv_fs_drv_t'
+   52 | static lv_fs_res_t fs_dir_open (lv_fs_drv_t * drv, void * dir_p, const char *path);
+      |                                 ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:53:8: error: unknown type name 'lv_fs_res_t'
+   53 | static lv_fs_res_t fs_dir_read (lv_fs_drv_t * drv, void * dir_p, char *fn);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:53:33: error: unknown type name 'lv_fs_drv_t'
+   53 | static lv_fs_res_t fs_dir_read (lv_fs_drv_t * drv, void * dir_p, char *fn);
+      |                                 ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:54:8: error: unknown type name 'lv_fs_res_t'
+   54 | static lv_fs_res_t fs_dir_close (lv_fs_drv_t * drv, void * dir_p);
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:54:34: error: unknown type name 'lv_fs_drv_t'
+   54 | static lv_fs_res_t fs_dir_close (lv_fs_drv_t * drv, void * dir_p);
+      |                                  ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c: In function 'lv_fs_if_fatfs_init':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:80:5: error: unknown type name 'lv_fs_drv_t'
+   80 |     lv_fs_drv_t fs_drv;                         /*A driver descriptor*/
+      |     ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:81:9: error: implicit declaration of function 'lv_fs_drv_init' [-Werror=implicit-function-declaration]
+   81 |         lv_fs_drv_init(&fs_drv);
+      |         ^~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:84:11: error: request for member 'file_size' in something not a structure or union
+   84 |     fs_drv.file_size = sizeof(file_t);
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:85:11: error: request for member 'letter' in something not a structure or union
+   85 |     fs_drv.letter = LV_FS_IF_FATFS;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:85:21: error: 'LV_FS_IF_FATFS' undeclared (first use in this function)
+   85 |     fs_drv.letter = LV_FS_IF_FATFS;
+      |                     ^~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:85:21: note: each undeclared identifier is reported only once for each function it appears in
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:86:11: error: request for member 'open_cb' in something not a structure or union
+   86 |     fs_drv.open_cb = fs_open;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:86:22: error: 'fs_open' undeclared (first use in this function); did you mean 'f_open'?
+   86 |     fs_drv.open_cb = fs_open;
+      |                      ^~~~~~~
+      |                      f_open
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:87:11: error: request for member 'close_cb' in something not a structure or union
+   87 |     fs_drv.close_cb = fs_close;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:87:23: error: 'fs_close' undeclared (first use in this function); did you mean 'f_close'?
+   87 |     fs_drv.close_cb = fs_close;
+      |                       ^~~~~~~~
+      |                       f_close
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:88:11: error: request for member 'read_cb' in something not a structure or union
+   88 |     fs_drv.read_cb = fs_read;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:88:22: error: 'fs_read' undeclared (first use in this function); did you mean 'f_read'?
+   88 |     fs_drv.read_cb = fs_read;
+      |                      ^~~~~~~
+      |                      f_read
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:89:11: error: request for member 'write_cb' in something not a structure or union
+   89 |     fs_drv.write_cb = fs_write;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:89:23: error: 'fs_write' undeclared (first use in this function); did you mean 'f_write'?
+   89 |     fs_drv.write_cb = fs_write;
+      |                       ^~~~~~~~
+      |                       f_write
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:90:11: error: request for member 'seek_cb' in something not a structure or union
+   90 |     fs_drv.seek_cb = fs_seek;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:90:22: error: 'fs_seek' undeclared (first use in this function); did you mean 'f_lseek'?
+   90 |     fs_drv.seek_cb = fs_seek;
+      |                      ^~~~~~~
+      |                      f_lseek
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:91:11: error: request for member 'tell_cb' in something not a structure or union
+   91 |     fs_drv.tell_cb = fs_tell;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:91:22: error: 'fs_tell' undeclared (first use in this function); did you mean 'f_tell'?
+   91 |     fs_drv.tell_cb = fs_tell;
+      |                      ^~~~~~~
+      |                      f_tell
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:92:11: error: request for member 'free_space_cb' in something not a structure or union
+   92 |     fs_drv.free_space_cb = fs_free;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:92:28: error: 'fs_free' undeclared (first use in this function)
+   92 |     fs_drv.free_space_cb = fs_free;
+      |                            ^~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:93:11: error: request for member 'size_cb' in something not a structure or union
+   93 |     fs_drv.size_cb = fs_size;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:93:22: error: 'fs_size' undeclared (first use in this function); did you mean 'f_size'?
+   93 |     fs_drv.size_cb = fs_size;
+      |                      ^~~~~~~
+      |                      f_size
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:94:11: error: request for member 'remove_cb' in something not a structure or union
+   94 |     fs_drv.remove_cb = fs_remove;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:94:24: error: 'fs_remove' undeclared (first use in this function); did you mean 'remove'?
+   94 |     fs_drv.remove_cb = fs_remove;
+      |                        ^~~~~~~~~
+      |                        remove
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:95:11: error: request for member 'rename_cb' in something not a structure or union
+   95 |     fs_drv.rename_cb = fs_rename;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:95:24: error: 'fs_rename' undeclared (first use in this function); did you mean 'f_rename'?
+   95 |     fs_drv.rename_cb = fs_rename;
+      |                        ^~~~~~~~~
+      |                        f_rename
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:96:11: error: request for member 'trunc_cb' in something not a structure or union
+   96 |     fs_drv.trunc_cb = fs_trunc;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:96:23: error: 'fs_trunc' undeclared (first use in this function)
+   96 |     fs_drv.trunc_cb = fs_trunc;
+      |                       ^~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:98:11: error: request for member 'rddir_size' in something not a structure or union
+   98 |     fs_drv.rddir_size = sizeof(dir_t);
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:99:11: error: request for member 'dir_close_cb' in something not a structure or union
+   99 |     fs_drv.dir_close_cb = fs_dir_close;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:99:27: error: 'fs_dir_close' undeclared (first use in this function)
+   99 |     fs_drv.dir_close_cb = fs_dir_close;
+      |                           ^~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:100:11: error: request for member 'dir_open_cb' in something not a structure or union
+  100 |     fs_drv.dir_open_cb = fs_dir_open;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:100:26: error: 'fs_dir_open' undeclared (first use in this function)
+  100 |     fs_drv.dir_open_cb = fs_dir_open;
+      |                          ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:101:11: error: request for member 'dir_read_cb' in something not a structure or union
+  101 |     fs_drv.dir_read_cb = fs_dir_read;
+      |           ^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:101:26: error: 'fs_dir_read' undeclared (first use in this function)
+  101 |     fs_drv.dir_read_cb = fs_dir_read;
+      |                          ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:103:5: error: implicit declaration of function 'lv_fs_drv_register'; did you mean 'esp_vfs_fat_register'? [-Werror=implicit-function-declaration]
+  103 |     lv_fs_drv_register(&fs_drv);
+      |     ^~~~~~~~~~~~~~~~~~
+      |     esp_vfs_fat_register
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c: At top level:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:125:8: error: unknown type name 'lv_fs_res_t'
+  125 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:125:29: error: unknown type name 'lv_fs_drv_t'
+  125 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:125:82: error: unknown type name 'lv_fs_mode_t'
+  125 | static lv_fs_res_t fs_open (lv_fs_drv_t * drv, void * file_p, const char * path, lv_fs_mode_t mode)
+      |                                                                                  ^~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:151:8: error: unknown type name 'lv_fs_res_t'
+  151 | static lv_fs_res_t fs_close (lv_fs_drv_t * drv, void * file_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:151:30: error: unknown type name 'lv_fs_drv_t'
+  151 | static lv_fs_res_t fs_close (lv_fs_drv_t * drv, void * file_p)
+      |                              ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:167:8: error: unknown type name 'lv_fs_res_t'
+  167 | static lv_fs_res_t fs_read (lv_fs_drv_t * drv, void * file_p, void * buf, uint32_t btr, uint32_t * br)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:167:29: error: unknown type name 'lv_fs_drv_t'
+  167 | static lv_fs_res_t fs_read (lv_fs_drv_t * drv, void * file_p, void * buf, uint32_t btr, uint32_t * br)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:183:8: error: unknown type name 'lv_fs_res_t'
+  183 | static lv_fs_res_t fs_write(lv_fs_drv_t * drv, void * file_p, const void * buf, uint32_t btw, uint32_t * bw)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:183:29: error: unknown type name 'lv_fs_drv_t'
+  183 | static lv_fs_res_t fs_write(lv_fs_drv_t * drv, void * file_p, const void * buf, uint32_t btw, uint32_t * bw)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:198:8: error: unknown type name 'lv_fs_res_t'
+  198 | static lv_fs_res_t fs_seek (lv_fs_drv_t * drv, void * file_p, uint32_t pos)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:198:29: error: unknown type name 'lv_fs_drv_t'
+  198 | static lv_fs_res_t fs_seek (lv_fs_drv_t * drv, void * file_p, uint32_t pos)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:211:8: error: unknown type name 'lv_fs_res_t'
+  211 | static lv_fs_res_t fs_size (lv_fs_drv_t * drv, void * file_p, uint32_t * size_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:211:29: error: unknown type name 'lv_fs_drv_t'
+  211 | static lv_fs_res_t fs_size (lv_fs_drv_t * drv, void * file_p, uint32_t * size_p)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:225:8: error: unknown type name 'lv_fs_res_t'
+  225 | static lv_fs_res_t fs_tell (lv_fs_drv_t * drv, void * file_p, uint32_t * pos_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:225:29: error: unknown type name 'lv_fs_drv_t'
+  225 | static lv_fs_res_t fs_tell (lv_fs_drv_t * drv, void * file_p, uint32_t * pos_p)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:237:8: error: unknown type name 'lv_fs_res_t'
+  237 | static lv_fs_res_t fs_remove (lv_fs_drv_t * drv, const char *path)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:237:31: error: unknown type name 'lv_fs_drv_t'
+  237 | static lv_fs_res_t fs_remove (lv_fs_drv_t * drv, const char *path)
+      |                               ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:253:8: error: unknown type name 'lv_fs_res_t'
+  253 | static lv_fs_res_t fs_trunc (lv_fs_drv_t * drv, void * file_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:253:30: error: unknown type name 'lv_fs_drv_t'
+  253 | static lv_fs_res_t fs_trunc (lv_fs_drv_t * drv, void * file_p)
+      |                              ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:267:8: error: unknown type name 'lv_fs_res_t'
+  267 | static lv_fs_res_t fs_rename (lv_fs_drv_t * drv, const char * oldname, const char * newname)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:267:31: error: unknown type name 'lv_fs_drv_t'
+  267 | static lv_fs_res_t fs_rename (lv_fs_drv_t * drv, const char * oldname, const char * newname)
+      |                               ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:284:8: error: unknown type name 'lv_fs_res_t'
+  284 | static lv_fs_res_t fs_free (lv_fs_drv_t * drv, uint32_t * total_p, uint32_t * free_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:284:29: error: unknown type name 'lv_fs_drv_t'
+  284 | static lv_fs_res_t fs_free (lv_fs_drv_t * drv, uint32_t * total_p, uint32_t * free_p)
+      |                             ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:300:8: error: unknown type name 'lv_fs_res_t'
+  300 | static lv_fs_res_t fs_dir_open (lv_fs_drv_t * drv, void * dir_p, const char *path)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:300:33: error: unknown type name 'lv_fs_drv_t'
+  300 | static lv_fs_res_t fs_dir_open (lv_fs_drv_t * drv, void * dir_p, const char *path)
+      |                                 ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:315:8: error: unknown type name 'lv_fs_res_t'
+  315 | static lv_fs_res_t fs_dir_read (lv_fs_drv_t * drv, void * dir_p, char *fn)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:315:33: error: unknown type name 'lv_fs_drv_t'
+  315 | static lv_fs_res_t fs_dir_read (lv_fs_drv_t * drv, void * dir_p, char *fn)
+      |                                 ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:342:8: error: unknown type name 'lv_fs_res_t'
+  342 | static lv_fs_res_t fs_dir_close (lv_fs_drv_t * drv, void * dir_p)
+      |        ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:342:34: error: unknown type name 'lv_fs_drv_t'
+  342 | static lv_fs_res_t fs_dir_close (lv_fs_drv_t * drv, void * dir_p)
+      |                                  ^~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c: In function 'scan_files':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:382:38: error: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'FSIZE_t' {aka 'long unsigned int'} [-Werror=format=]
+  382 |             printf("  %s  ---- size %u \r\n", fno.fname, fno.fsize);
+      |                                     ~^                   ~~~~~~~~~
+      |                                      |                      |
+      |                                      unsigned int           FSIZE_t {aka long unsigned int}
+      |                                     %lu
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:388:38: error: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'FSIZE_t' {aka 'long unsigned int'} [-Werror=format=]
+  388 |             printf("  %s  ---- size %u \r\n", fno1.fname, fno1.fsize);
+      |                                     ~^                    ~~~~~~~~~~
+      |                                      |                        |
+      |                                      unsigned int             FSIZE_t {aka long unsigned int}
+      |                                     %lu
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:358:12: warning: unused variable 'i' [-Wunused-variable]
+  358 |        int i;
+      |            ^
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c:111:13: warning: 'fs_init' defined but not used [-Wunused-function]
+  111 | static void fs_init(void)
+      |             ^~~~~~~
+cc1: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

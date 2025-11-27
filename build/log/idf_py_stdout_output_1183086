@@ -1,0 +1,115 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_lvgl.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:19: warning: "LV_GRID_FR" redefined
+   19 |  #define LV_GRID_FR 1
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:27: note: this is the location of the previous definition
+   27 | #define LV_GRID_FR(x)          (LV_COORD_MAX - 100 + x)
+      | 
+[5/10] Linking C static library esp-idf/evm_modules/libevm_modules.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable evm_java_launcher.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[9/10] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x1541c0 bytes. Smallest app partition is 0x300000 bytes. 0x1abe40 bytes (56%) free.
+[9/10] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00164fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 0.9 seconds (effective 226.9 kbit/s)...
+Hash of data verified.
+Compressed 1393088 bytes to 848484...
+Writing at 0x00010000... (1 %)
+Writing at 0x00020905... (3 %)
+Writing at 0x00029d78... (5 %)
+Writing at 0x00030341... (7 %)
+Writing at 0x0003a9e6... (9 %)
+Writing at 0x00044c47... (11 %)
+Writing at 0x0004a1b8... (13 %)
+Writing at 0x000519aa... (15 %)
+Writing at 0x00057444... (17 %)
+Writing at 0x0005e7a2... (19 %)
+Writing at 0x000649df... (21 %)
+Writing at 0x0006a377... (23 %)
+Writing at 0x000705f8... (25 %)
+Writing at 0x00077532... (26 %)
+Writing at 0x0007e07b... (28 %)
+Writing at 0x0008458b... (30 %)
+Writing at 0x0008a091... (32 %)
+Writing at 0x0008fce8... (34 %)
+Writing at 0x00096208... (36 %)
+Writing at 0x0009c3a3... (38 %)
+Writing at 0x000a2476... (40 %)
+Writing at 0x000a8fd1... (42 %)
+Writing at 0x000aef11... (44 %)
+Writing at 0x000b48bf... (46 %)
+Writing at 0x000bae13... (48 %)
+Writing at 0x000c10ec... (50 %)
+Writing at 0x000c6f67... (51 %)
+Writing at 0x000ccd12... (53 %)
+Writing at 0x000d2ad8... (55 %)
+Writing at 0x000d8bce... (57 %)
+Writing at 0x000de936... (59 %)
+Writing at 0x000e3bd4... (61 %)
+Writing at 0x000e91a1... (63 %)
+Writing at 0x000ee49d... (65 %)
+Writing at 0x000f3d0e... (67 %)
+Writing at 0x000f9324... (69 %)
+Writing at 0x000feb31... (71 %)
+Writing at 0x001049aa... (73 %)
+Writing at 0x0010a31b... (75 %)
+Writing at 0x001101b2... (76 %)
+Writing at 0x00116864... (78 %)
+Writing at 0x0011c2c2... (80 %)
+Writing at 0x00122340... (82 %)
+Writing at 0x0012bf2b... (84 %)
+Writing at 0x001329a3... (86 %)
+Writing at 0x0013aa99... (88 %)
+Writing at 0x00140ea2... (90 %)
+Writing at 0x00148f7a... (92 %)
+Writing at 0x0014f147... (94 %)
+Writing at 0x0015467c... (96 %)
+Writing at 0x0015a274... (98 %)
+Writing at 0x0015fb77... (100 %)
+Wrote 1393088 bytes (848484 compressed) at 0x00010000 in 20.5 seconds (effective 544.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 408.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

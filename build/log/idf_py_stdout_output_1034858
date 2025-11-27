@@ -1,0 +1,109 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:432:13: warning: 'test_basic_colors_immediately1' defined but not used [-Wunused-function]
+  432 | static void test_basic_colors_immediately1(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:196:13: warning: 'get_real_app_name' defined but not used [-Wunused-function]
+  196 | static void get_real_app_name(const char *file_path, char *display_name) {
+      |             ^~~~~~~~~~~~~~~~~
+[5/10] Linking C static library esp-idf/app_manager/libapp_manager.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable evm_java_launcher.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[9/10] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x154fe0 bytes. Smallest app partition is 0x300000 bytes. 0x1ab020 bytes (56%) free.
+[9/10] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.........
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00164fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 0.9 seconds (effective 225.4 kbit/s)...
+Hash of data verified.
+Compressed 1396704 bytes to 852786...
+Writing at 0x00010000... (1 %)
+Writing at 0x0001c8cc... (3 %)
+Writing at 0x00028cd4... (5 %)
+Writing at 0x0002ef67... (7 %)
+Writing at 0x00037af4... (9 %)
+Writing at 0x00042bc2... (11 %)
+Writing at 0x000495cd... (13 %)
+Writing at 0x0004fd97... (15 %)
+Writing at 0x00058ac2... (16 %)
+Writing at 0x0005eb55... (18 %)
+Writing at 0x00064ad4... (20 %)
+Writing at 0x0006bb47... (22 %)
+Writing at 0x00071d34... (24 %)
+Writing at 0x00077989... (26 %)
+Writing at 0x0007d8e2... (28 %)
+Writing at 0x00083d69... (30 %)
+Writing at 0x0008b049... (32 %)
+Writing at 0x0009138b... (33 %)
+Writing at 0x000975a4... (35 %)
+Writing at 0x0009d0d6... (37 %)
+Writing at 0x000a3441... (39 %)
+Writing at 0x000a9618... (41 %)
+Writing at 0x000af172... (43 %)
+Writing at 0x000b6432... (45 %)
+Writing at 0x000bc281... (47 %)
+Writing at 0x000c2011... (49 %)
+Writing at 0x000c7cc4... (50 %)
+Writing at 0x000ce3a7... (52 %)
+Writing at 0x000d41ea... (54 %)
+Writing at 0x000da03d... (56 %)
+Writing at 0x000dfdb2... (58 %)
+Writing at 0x000e5d6f... (60 %)
+Writing at 0x000ebf62... (62 %)
+Writing at 0x000f145d... (64 %)
+Writing at 0x000f6816... (66 %)
+Writing at 0x000fbd96... (67 %)
+Writing at 0x00101168... (69 %)
+Writing at 0x001068f0... (71 %)
+Writing at 0x0010c1e7... (73 %)
+Writing at 0x00111f71... (75 %)
+Writing at 0x00117790... (77 %)
+Writing at 0x0011d44c... (79 %)
+Writing at 0x00123d3c... (81 %)
+Writing at 0x00129670... (83 %)
+Writing at 0x0012f45e... (84 %)
+Writing at 0x0013630a... (86 %)
+Writing at 0x0013ebe3... (88 %)
+Writing at 0x0014783a... (90 %)
+Writing at 0x0014e047... (92 %)
+Writing at 0x00153e01... (94 %)
+Writing at 0x001598c7... (96 %)
+Writing at 0x0015f3b5... (98 %)
+Writing at 0x00164a1d... (100 %)
+Wrote 1396704 bytes (852786 compressed) at 0x00010000 in 21.1 seconds (effective 528.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 395.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

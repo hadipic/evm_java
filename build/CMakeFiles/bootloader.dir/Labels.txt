@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/shop-electronic/project/esp32/evm_java/build/CMakeFiles/bootloader
+/home/shop-electronic/project/esp32/evm_java/build/CMakeFiles/bootloader.rule
+/home/shop-electronic/project/esp32/evm_java/build/CMakeFiles/bootloader-complete.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/shop-electronic/project/esp32/evm_java/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,266 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+Processing 1 dependencies:
+[1/1] idf (5.1.0)
+-- Project sdkconfig file /home/shop-electronic/project/esp32/evm_java/sdkconfig
+-- App "evm_java_launcher" version: 1
+-- Adding linker script /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/shop-electronic/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_manager app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py evm_loader evm_modules fatfs freertos hal hardware_manager heap http_parser idf_test ieee802154 json log lv-fs lvgl lwip main mbedtls mongoose mqtt mujs newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc shared_hardware soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/shop-electronic/project/esp32/evm_java/components/app_manager /home/shop-electronic/esp/esp-idf/components/app_trace /home/shop-electronic/esp/esp-idf/components/app_update /home/shop-electronic/esp/esp-idf/components/bootloader /home/shop-electronic/esp/esp-idf/components/bootloader_support /home/shop-electronic/esp/esp-idf/components/bt /home/shop-electronic/esp/esp-idf/components/cmock /home/shop-electronic/esp/esp-idf/components/console /home/shop-electronic/esp/esp-idf/components/cxx /home/shop-electronic/esp/esp-idf/components/driver /home/shop-electronic/esp/esp-idf/components/efuse /home/shop-electronic/esp/esp-idf/components/esp-tls /home/shop-electronic/esp/esp-idf/components/esp_adc /home/shop-electronic/esp/esp-idf/components/esp_app_format /home/shop-electronic/esp/esp-idf/components/esp_common /home/shop-electronic/esp/esp-idf/components/esp_eth /home/shop-electronic/esp/esp-idf/components/esp_event /home/shop-electronic/esp/esp-idf/components/esp_gdbstub /home/shop-electronic/esp/esp-idf/components/esp_hid /home/shop-electronic/esp/esp-idf/components/esp_http_client /home/shop-electronic/esp/esp-idf/components/esp_http_server /home/shop-electronic/esp/esp-idf/components/esp_https_ota /home/shop-electronic/esp/esp-idf/components/esp_https_server /home/shop-electronic/esp/esp-idf/components/esp_hw_support /home/shop-electronic/esp/esp-idf/components/esp_lcd /home/shop-electronic/esp/esp-idf/components/esp_local_ctrl /home/shop-electronic/esp/esp-idf/components/esp_netif /home/shop-electronic/esp/esp-idf/components/esp_netif_stack /home/shop-electronic/esp/esp-idf/components/esp_partition /home/shop-electronic/esp/esp-idf/components/esp_phy /home/shop-electronic/esp/esp-idf/components/esp_pm /home/shop-electronic/esp/esp-idf/components/esp_psram /home/shop-electronic/esp/esp-idf/components/esp_ringbuf /home/shop-electronic/esp/esp-idf/components/esp_rom /home/shop-electronic/esp/esp-idf/components/esp_system /home/shop-electronic/esp/esp-idf/components/esp_timer /home/shop-electronic/esp/esp-idf/components/esp_wifi /home/shop-electronic/esp/esp-idf/components/espcoredump /home/shop-electronic/esp/esp-idf/components/esptool_py /home/shop-electronic/project/esp32/evm_java/components/evm_loader /home/shop-electronic/project/esp32/evm_java/components/evm_modules /home/shop-electronic/esp/esp-idf/components/fatfs /home/shop-electronic/esp/esp-idf/components/freertos /home/shop-electronic/esp/esp-idf/components/hal /home/shop-electronic/project/esp32/evm_java/components/hardware_manager /home/shop-electronic/esp/esp-idf/components/heap /home/shop-electronic/esp/esp-idf/components/http_parser /home/shop-electronic/esp/esp-idf/components/idf_test /home/shop-electronic/esp/esp-idf/components/ieee802154 /home/shop-electronic/esp/esp-idf/components/json /home/shop-electronic/esp/esp-idf/components/log /home/shop-electronic/project/esp32/evm_java/components/lv-fs /home/shop-electronic/project/esp32/evm_java/components/lvgl /home/shop-electronic/esp/esp-idf/components/lwip /home/shop-electronic/project/esp32/evm_java/main /home/shop-electronic/esp/esp-idf/components/mbedtls /home/shop-electronic/project/esp32/evm_java/components/mongoose /home/shop-electronic/esp/esp-idf/components/mqtt /home/shop-electronic/project/esp32/evm_java/components/mujs /home/shop-electronic/esp/esp-idf/components/newlib /home/shop-electronic/esp/esp-idf/components/nvs_flash /home/shop-electronic/esp/esp-idf/components/openthread /home/shop-electronic/esp/esp-idf/components/partition_table /home/shop-electronic/esp/esp-idf/components/perfmon /home/shop-electronic/esp/esp-idf/components/protobuf-c /home/shop-electronic/esp/esp-idf/components/protocomm /home/shop-electronic/esp/esp-idf/components/pthread /home/shop-electronic/esp/esp-idf/components/sdmmc /home/shop-electronic/project/esp32/evm_java/components/shared_hardware /home/shop-electronic/esp/esp-idf/components/soc /home/shop-electronic/esp/esp-idf/components/spi_flash /home/shop-electronic/esp/esp-idf/components/spiffs /home/shop-electronic/esp/esp-idf/components/tcp_transport /home/shop-electronic/esp/esp-idf/components/ulp /home/shop-electronic/esp/esp-idf/components/unity /home/shop-electronic/esp/esp-idf/components/usb /home/shop-electronic/esp/esp-idf/components/vfs /home/shop-electronic/esp/esp-idf/components/wear_levelling /home/shop-electronic/esp/esp-idf/components/wifi_provisioning /home/shop-electronic/esp/esp-idf/components/wpa_supplicant /home/shop-electronic/esp/esp-idf/components/xtensa
+-- Configuring done (17.0s)
+-- Generating done (0.9s)
+-- Build files have been written to: /home/shop-electronic/project/esp32/evm_java/build
+[1/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module.c.obj
+[2/25] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[3/25] No install step for 'bootloader'
+[4/25] Completed 'bootloader'
+[5/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_gpio.c.obj
+[6/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_console.c.obj
+[7/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_process.c.obj
+[8/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_timer.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c: In function 'timer_callback':
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:31:50: warning: passing argument 2 of 'js_getregistry' makes pointer from integer without a cast [-Wint-conversion]
+   31 |         js_getregistry(context->js_state, context->callback_ref);
+      |                                           ~~~~~~~^~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  int
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_timer.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:2:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:135:46: note: expected 'const char *' but argument is of type 'int'
+  135 | void js_getregistry(js_State *J, const char *name);
+      |                                  ~~~~~~~~~~~~^~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c: In function 'js_timer_settimeout':
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:107:27: warning: assignment to 'int' from 'const char *' makes integer from pointer without a cast [-Wint-conversion]
+  107 |     context->callback_ref = js_ref(J);
+      |                           ^
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c: In function 'js_timer_setinterval':
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:178:27: warning: assignment to 'int' from 'const char *' makes integer from pointer without a cast [-Wint-conversion]
+  178 |     context->callback_ref = js_ref(J);
+      |                           ^
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c: In function 'js_timer_clear':
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:227:40: warning: passing argument 2 of 'js_unref' makes pointer from integer without a cast [-Wint-conversion]
+  227 |     js_unref(context->js_state, context->callback_ref);
+      |                                 ~~~~~~~^~~~~~~~~~~~~~
+      |                                        |
+      |                                        int
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_timer.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:2:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:133:40: note: expected 'const char *' but argument is of type 'int'
+  133 | void js_unref(js_State *J, const char *ref);
+      |                            ~~~~~~~~~~~~^~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c: In function 'cleanup_all_timers':
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:247:48: warning: passing argument 2 of 'js_unref' makes pointer from integer without a cast [-Wint-conversion]
+  247 |             js_unref(context->js_state, context->callback_ref);
+      |                                         ~~~~~~~^~~~~~~~~~~~~~
+      |                                                |
+      |                                                int
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_timer.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_timer.c:2:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:133:40: note: expected 'const char *' but argument is of type 'int'
+  133 | void js_unref(js_State *J, const char *ref);
+      |                            ~~~~~~~~~~~~^~~
+[9/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_json.c.obj
+[10/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_wifi.c.obj
+[11/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_fs.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_fs.c:44:13: warning: 'ensure_parent_directory' defined but not used [-Wunused-function]
+   44 | static bool ensure_parent_directory(const char *filename) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+[12/25] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/shop-electronic/project/esp32/evm_java/main/main.c:110:13: warning: 'simple_mqtt_test' defined but not used [-Wunused-function]
+  110 | static void simple_mqtt_test(void) {
+      |             ^~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:76:18: warning: 'initialize_mqtt_broker' defined but not used [-Wunused-function]
+   76 | static esp_err_t initialize_mqtt_broker(void) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:60:13: warning: 'publish_mqtt_status' defined but not used [-Wunused-function]
+   60 | static void publish_mqtt_status(void) {
+      |             ^~~~~~~~~~~~~~~~~~~
+[13/25] Building C object esp-idf/evm_loader/CMakeFiles/__idf_evm_loader.dir/evm_loader.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_loader_init':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:351:30: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  351 |     mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                              ^~~~~~~~~~
+      |                              |
+      |                              void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_app_task_func':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:482:34: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  482 |         mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                  ^~~~~~~~~~
+      |                                  |
+      |                                  void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_validate_syntax':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:704:40: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  704 |     js_State* temp_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                        ^~~~~~~~~~
+      |                                        |
+      |                                        void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:798:18: warning: 'evm_validate_app_file' defined but not used [-Wunused-function]
+  798 | static esp_err_t evm_validate_app_file(const char* file_path) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+[14/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_ftp.c.obj
+[15/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_mongoose.c.obj
+[16/25] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_lvgl.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:19: warning: "LV_GRID_FR" redefined
+   19 | #define LV_GRID_FR 1
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:27: note: this is the location of the previous definition
+   27 | #define LV_GRID_FR(x)          (LV_COORD_MAX - 100 + x)
+      | 
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:20: warning: "LV_GRID_CONTENT" redefined
+   20 | #define LV_GRID_CONTENT 0
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:29: note: this is the location of the previous definition
+   29 | #define LV_GRID_CONTENT        (LV_COORD_MAX - 101)
+      | 
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:21: warning: "LV_GRID_TEMPLATE_LAST" redefined
+   21 | #define LV_GRID_TEMPLATE_LAST 0x7FFF
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:32: note: this is the location of the previous definition
+   32 | #define LV_GRID_TEMPLATE_LAST  (LV_COORD_MAX)
+      | 
+[17/25] Linking C static library esp-idf/evm_modules/libevm_modules.a
+[18/25] Linking C static library esp-idf/evm_loader/libevm_loader.a
+[19/25] Linking C static library esp-idf/main/libmain.a
+[20/25] Generating ld/sections.ld
+[21/25] Building C object CMakeFiles/evm_java_launcher.elf.dir/project_elf_src_esp32.c.obj
+[22/25] Linking CXX executable evm_java_launcher.elf
+[23/25] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[24/25] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x153ca0 bytes. Smallest app partition is 0x300000 bytes. 0x1ac360 bytes (56%) free.
+[24/25] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.......
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00163fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 1.0 seconds (effective 220.9 kbit/s)...
+Hash of data verified.
+Compressed 1391776 bytes to 848056...
+Writing at 0x00010000... (1 %)
+Writing at 0x000208eb... (3 %)
+Writing at 0x00029ba5... (5 %)
+Writing at 0x000301c1... (7 %)
+Writing at 0x0003a8af... (9 %)
+Writing at 0x00044a8a... (11 %)
+Writing at 0x00049ff8... (13 %)
+Writing at 0x000518e5... (15 %)
+Writing at 0x000573c3... (17 %)
+Writing at 0x0005e728... (19 %)
+Writing at 0x00064877... (21 %)
+Writing at 0x0006a20d... (23 %)
+Writing at 0x000704d2... (25 %)
+Writing at 0x000774be... (26 %)
+Writing at 0x0007df26... (28 %)
+Writing at 0x00084437... (30 %)
+Writing at 0x00089ef8... (32 %)
+Writing at 0x0008fb6f... (34 %)
+Writing at 0x0009606c... (36 %)
+Writing at 0x0009c1ff... (38 %)
+Writing at 0x000a2398... (40 %)
+Writing at 0x000a8e27... (42 %)
+Writing at 0x000aed7c... (44 %)
+Writing at 0x000b4747... (46 %)
+Writing at 0x000bac87... (48 %)
+Writing at 0x000c0f12... (50 %)
+Writing at 0x000c6dce... (51 %)
+Writing at 0x000ccb57... (53 %)
+Writing at 0x000d29ed... (55 %)
+Writing at 0x000d8a25... (57 %)
+Writing at 0x000de769... (59 %)
+Writing at 0x000e3a41... (61 %)
+Writing at 0x000e8fd6... (63 %)
+Writing at 0x000ee2e6... (65 %)
+Writing at 0x000f3b5a... (67 %)
+Writing at 0x000f9165... (69 %)
+Writing at 0x000fe971... (71 %)
+Writing at 0x00104801... (73 %)
+Writing at 0x0010a164... (75 %)
+Writing at 0x00110022... (76 %)
+Writing at 0x00116683... (78 %)
+Writing at 0x0011c0d1... (80 %)
+Writing at 0x001221a7... (82 %)
+Writing at 0x0012be7b... (84 %)
+Writing at 0x00132833... (86 %)
+Writing at 0x0013a8cf... (88 %)
+Writing at 0x00140ca9... (90 %)
+Writing at 0x00148d37... (92 %)
+Writing at 0x0014ee4b... (94 %)
+Writing at 0x00154397... (96 %)
+Writing at 0x00159f78... (98 %)
+Writing at 0x0015f888... (100 %)
+Wrote 1391776 bytes (848056 compressed) at 0x00010000 in 20.5 seconds (effective 543.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 412.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

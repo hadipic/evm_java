@@ -1,0 +1,463 @@
+[1/208] Performing build step for 'bootloader'
+[1/1] cd /home/shop-electronic/project/esp32/evm_java/build/bootloader/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shop-electronic/project/esp32/evm_java/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/208] No install step for 'bootloader'
+[3/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_class.c.obj
+[4/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_disp.c.obj
+[5/208] Completed 'bootloader'
+[6/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_event.c.obj
+[7/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_group.c.obj
+[8/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_indev_scroll.c.obj
+[9/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_tree.c.obj
+[10/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_draw.c.obj
+[11/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_indev.c.obj
+[12/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj.c.obj
+[13/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_style_gen.c.obj
+[14/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj
+[15/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw.c.obj
+[16/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_style.c.obj
+[17/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_theme.c.obj
+[18/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_img.c.obj
+[19/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_scroll.c.obj
+[20/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_arc.c.obj
+[21/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_obj_pos.c.obj
+[22/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_line.c.obj
+[23/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_layer.c.obj
+[24/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/core/lv_refr.c.obj
+[25/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/lv_gpu_nxp.c.obj
+[26/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_rect.c.obj
+[27/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj
+[28/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_transform.c.obj
+[29/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj
+[30/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_img_cache.c.obj
+[31/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_triangle.c.obj
+[32/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_img_buf.c.obj
+[33/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj
+[34/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj
+[35/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+[36/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj
+[37/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj
+[38/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_img_decoder.c.obj
+[39/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj
+[40/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_label.c.obj
+[41/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj
+[42/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj
+[43/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj
+[44/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj
+[45/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj
+[46/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj
+[47/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj
+[48/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj
+[49/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj
+[50/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj
+[51/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj
+[52/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj
+[53/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj
+[54/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj
+[55/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj
+[56/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw.c.obj
+[57/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj
+[58/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/lv_draw_mask.c.obj
+[59/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj
+[60/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj
+[61/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj
+[62/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj
+[63/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj
+[64/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj
+[65/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj
+[66/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj
+[67/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj
+[68/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj
+[69/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj
+[70/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj
+[71/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj
+[72/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj
+[73/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj
+[74/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj
+[75/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj
+[76/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/gif/lv_gif.c.obj
+[77/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj
+[78/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj
+[79/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/png/lv_png.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c: In function 'decoder_open':
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:154:49: warning: passing argument 2 of 'lodepng_decode32' from incompatible pointer type [-Wincompatible-pointer-types]
+  154 |             error = lodepng_decode32(&img_data, &png_width, &png_height, png_data, png_data_size);
+      |                                                 ^~~~~~~~~~
+      |                                                 |
+      |                                                 uint32_t * {aka long unsigned int *}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:13:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lodepng.h:136:58: note: expected 'unsigned int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  136 | unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h,
+      |                                                ~~~~~~~~~~^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:154:61: warning: passing argument 3 of 'lodepng_decode32' from incompatible pointer type [-Wincompatible-pointer-types]
+  154 |             error = lodepng_decode32(&img_data, &png_width, &png_height, png_data, png_data_size);
+      |                                                             ^~~~~~~~~~~
+      |                                                             |
+      |                                                             uint32_t * {aka long unsigned int *}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:13:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lodepng.h:136:71: note: expected 'unsigned int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  136 | unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h,
+      |                                                             ~~~~~~~~~~^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:177:45: warning: passing argument 2 of 'lodepng_decode32' from incompatible pointer type [-Wincompatible-pointer-types]
+  177 |         error = lodepng_decode32(&img_data, &png_width, &png_height, img_dsc->data, img_dsc->data_size);
+      |                                             ^~~~~~~~~~
+      |                                             |
+      |                                             uint32_t * {aka long unsigned int *}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:13:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lodepng.h:136:58: note: expected 'unsigned int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  136 | unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h,
+      |                                                ~~~~~~~~~~^
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:177:57: warning: passing argument 3 of 'lodepng_decode32' from incompatible pointer type [-Wincompatible-pointer-types]
+  177 |         error = lodepng_decode32(&img_data, &png_width, &png_height, img_dsc->data, img_dsc->data_size);
+      |                                                         ^~~~~~~~~~~
+      |                                                         |
+      |                                                         uint32_t * {aka long unsigned int *}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lv_png.c:13:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/libs/png/lodepng.h:136:71: note: expected 'unsigned int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  136 | unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h,
+      |                                                             ~~~~~~~~~~^
+[80/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj
+[81/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/gif/gifdec.c.obj
+[82/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj
+[83/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj
+[84/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/lv_extra.c.obj
+[85/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj
+[86/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj
+[87/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj
+[88/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj
+[89/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/msg/lv_msg.c.obj
+[90/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj
+[91/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj
+[92/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+[93/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj
+[94/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj
+[95/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj
+[96/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj
+[97/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+[98/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj
+[99/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj
+[100/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/led/lv_led.c.obj
+[101/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/list/lv_list.c.obj
+[102/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+[103/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+[104/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj
+[105/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj
+[106/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj
+[107/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj
+[108/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj
+[109/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj
+[110/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font.c.obj
+[111/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj
+[112/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj
+[113/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/win/lv_win.c.obj
+[114/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_fmt_txt.c.obj
+[115/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+[116/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj
+[117/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj
+[118/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_10.c.obj
+[119/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_16.c.obj
+[120/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_12.c.obj
+[121/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_14.c.obj
+[122/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_20.c.obj
+[123/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_22.c.obj
+[124/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_24.c.obj
+[125/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_18.c.obj
+[126/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/widgets/span/lv_span.c.obj
+[127/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj
+[128/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_26.c.obj
+[129/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_loader.c.obj
+[130/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_30.c.obj
+[131/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_28.c.obj
+[132/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_38.c.obj
+[133/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_40.c.obj
+[134/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_32.c.obj
+[135/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_34.c.obj
+[136/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_36.c.obj
+[137/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_46.c.obj
+[138/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_42.c.obj
+[139/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_48.c.obj
+[140/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_44.c.obj
+[141/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/hal/lv_hal_indev.c.obj
+[142/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_montserrat_8.c.obj
+[143/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_unscii_16.c.obj
+[144/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/hal/lv_hal_tick.c.obj
+[145/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj
+[146/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_anim.c.obj
+[147/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/font/lv_font_unscii_8.c.obj
+[148/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_bidi.c.obj
+[149/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_anim_timeline.c.obj
+[150/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_async.c.obj
+[151/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/hal/lv_hal_disp.c.obj
+[152/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_area.c.obj
+[153/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_color.c.obj
+[154/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_gc.c.obj
+[155/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_log.c.obj
+[156/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_ll.c.obj
+[157/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_lru.c.obj
+[158/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_math.c.obj
+[159/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_fs.c.obj
+[160/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_tlsf.c.obj
+[161/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_txt_ap.c.obj
+[162/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_mem.c.obj
+[163/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_style_gen.c.obj
+[164/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_timer.c.obj
+[165/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_printf.c.obj
+[166/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_style.c.obj
+[167/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_bar.c.obj
+[168/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/misc/lv_txt.c.obj
+[169/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_btn.c.obj
+[170/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_checkbox.c.obj
+[171/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_canvas.c.obj
+[172/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_arc.c.obj
+[173/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_line.c.obj
+[174/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_btnmatrix.c.obj
+[175/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/extra/libs/png/lodepng.c.obj
+[176/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_img.c.obj
+[177/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_switch.c.obj
+[178/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_slider.c.obj
+[179/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_label.c.obj
+[180/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_roller.c.obj
+[181/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_dropdown.c.obj
+[182/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_textarea.c.obj
+[183/208] Building C object esp-idf/shared_hardware/CMakeFiles/__idf_shared_hardware.dir/shared_hardware.c.obj
+[184/208] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_fatfs.c.obj
+[185/208] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/widgets/lv_table.c.obj
+[186/208] Building C object esp-idf/hardware_manager/CMakeFiles/__idf_hardware_manager.dir/hardware_manager.c.obj
+[187/208] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_if.c.obj
+[188/208] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_wifi.c.obj
+[189/208] Building C object esp-idf/evm_loader/CMakeFiles/__idf_evm_loader.dir/evm_loader.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_loader_init':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:351:30: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  351 |     mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                              ^~~~~~~~~~
+      |                              |
+      |                              void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_app_task_func':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:482:34: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  482 |         mujs_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                  ^~~~~~~~~~
+      |                                  |
+      |                                  void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c: In function 'evm_validate_syntax':
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:704:40: warning: passing argument 1 of 'js_newstate' from incompatible pointer type [-Wincompatible-pointer-types]
+  704 |     js_State* temp_state = js_newstate(mujs_alloc, NULL, JS_STRICT);
+      |                                        ^~~~~~~~~~
+      |                                        |
+      |                                        void * (*)(void *, void *, size_t) {aka void * (*)(void *, void *, unsigned int)}
+In file included from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module.h:5,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:18:
+/home/shop-electronic/project/esp32/evm_java/components/mujs/mujs.h:52:32: note: expected 'js_Alloc' {aka 'void * (*)(void *, void *, int)'} but argument is of type 'void * (*)(void *, void *, size_t)' {aka 'void * (*)(void *, void *, unsigned int)'}
+   52 | js_State *js_newstate(js_Alloc alloc, void *actx, int flags);
+      |                       ~~~~~~~~~^~~~~
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/evm_loader/evm_loader.c:798:18: warning: 'evm_validate_app_file' defined but not used [-Wunused-function]
+  798 | static esp_err_t evm_validate_app_file(const char* file_path) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+[190/208] Building C object esp-idf/lv-fs/CMakeFiles/__idf_lv-fs.dir/lv_fs_pc.c.obj
+[191/208] Building C object esp-idf/hardware_manager/CMakeFiles/__idf_hardware_manager.dir/lcd101.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c: In function 'send_9bit':
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:179:15: warning: unused variable 'ret' [-Wunused-variable]
+  179 |     esp_err_t ret = spi_device_polling_transmit(spi_lcd, (spi_transaction_t*)&t);
+      |               ^~~
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c: In function 'spi_master_init1':
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:215:24: warning: unused variable 'spi' [-Wunused-variable]
+  215 |    spi_device_handle_t spi;
+      |                        ^~~
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c: In function 'send2':
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:262:12: warning: unused variable 'data' [-Wunused-variable]
+  262 |   uint32_t data=0;
+      |            ^~~~
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c: In function 'lcd101_flush':
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:508:14: warning: unused variable 'y' [-Wunused-variable]
+  508 |      int32_t y;
+      |              ^
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:507:14: warning: unused variable 'x' [-Wunused-variable]
+  507 |      int32_t x;
+      |              ^
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:506:14: warning: unused variable 'data' [-Wunused-variable]
+  506 |      uint8_t data[4];
+      |              ^~~~
+At top level:
+/home/shop-electronic/project/esp32/evm_java/components/hardware_manager/lcd101.c:165:13: warning: 'send_9bit' defined but not used [-Wunused-function]
+  165 | static void send_9bit(uint8_t data, bool is_data) {
+      |             ^~~~~~~~~
+[192/208] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_lvgl.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:19: warning: "LV_GRID_FR" redefined
+   19 | #define LV_GRID_FR 1
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:27: note: this is the location of the previous definition
+   27 | #define LV_GRID_FR(x)          (LV_COORD_MAX - 100 + x)
+      | 
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:20: warning: "LV_GRID_CONTENT" redefined
+   20 | #define LV_GRID_CONTENT 0
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:29: note: this is the location of the previous definition
+   29 | #define LV_GRID_CONTENT        (LV_COORD_MAX - 101)
+      | 
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:21: warning: "LV_GRID_TEMPLATE_LAST" redefined
+   21 | #define LV_GRID_TEMPLATE_LAST 0x7FFF
+      | 
+In file included from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/lv_layouts.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/lv_extra.h:17,
+                 from /home/shop-electronic/project/esp32/evm_java/components/lvgl/lvgl.h:69,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/lcd101.h:6,
+                 from /home/shop-electronic/project/esp32/evm_java/components/hardware_manager/include/hardware_manager.h:13,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/include/evm_module_lvgl.h:4,
+                 from /home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_lvgl.c:1:
+/home/shop-electronic/project/esp32/evm_java/components/lvgl/src/extra/layouts/grid/lv_grid.h:32: note: this is the location of the previous definition
+   32 | #define LV_GRID_TEMPLATE_LAST  (LV_COORD_MAX)
+      | 
+[193/208] Building C object esp-idf/evm_modules/CMakeFiles/__idf_evm_modules.dir/evm_module_fs.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/evm_modules/evm_module_fs.c:44:13: warning: 'ensure_parent_directory' defined but not used [-Wunused-function]
+   44 | static bool ensure_parent_directory(const char *filename) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+[194/208] Linking C static library esp-idf/lvgl/liblvgl.a
+[195/208] Linking C static library esp-idf/lv-fs/liblv-fs.a
+[196/208] Linking C static library esp-idf/hardware_manager/libhardware_manager.a
+[197/208] Linking C static library esp-idf/shared_hardware/libshared_hardware.a
+[198/208] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/shop-electronic/project/esp32/evm_java/main/main.c:110:13: warning: 'simple_mqtt_test' defined but not used [-Wunused-function]
+  110 | static void simple_mqtt_test(void) {
+      |             ^~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:76:18: warning: 'initialize_mqtt_broker' defined but not used [-Wunused-function]
+   76 | static esp_err_t initialize_mqtt_broker(void) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/main/main.c:60:13: warning: 'publish_mqtt_status' defined but not used [-Wunused-function]
+   60 | static void publish_mqtt_status(void) {
+      |             ^~~~~~~~~~~~~~~~~~~
+[199/208] Linking C static library esp-idf/evm_modules/libevm_modules.a
+[200/208] Building C object esp-idf/app_manager/CMakeFiles/__idf_app_manager.dir/app_manager.c.obj
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:606:22: warning: 'create_lvgl_image_from_rgba' defined but not used [-Wunused-function]
+  606 | static lv_img_dsc_t* create_lvgl_image_from_rgba(unsigned char* rgba_data, unsigned width, unsigned height) {
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:519:13: warning: 'create_analog_clock_with_images' defined but not used [-Wunused-function]
+  519 | static void create_analog_clock_with_images(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:432:13: warning: 'test_basic_colors_immediately1' defined but not used [-Wunused-function]
+  432 | static void test_basic_colors_immediately1(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shop-electronic/project/esp32/evm_java/components/app_manager/app_manager.c:196:13: warning: 'get_real_app_name' defined but not used [-Wunused-function]
+  196 | static void get_real_app_name(const char *file_path, char *display_name) {
+      |             ^~~~~~~~~~~~~~~~~
+[201/208] Linking C static library esp-idf/app_manager/libapp_manager.a
+[202/208] Linking C static library esp-idf/evm_loader/libevm_loader.a
+[203/208] Linking C static library esp-idf/main/libmain.a
+[204/208] Generating ld/sections.ld
+[205/208] Linking CXX executable evm_java_launcher.elf
+[206/208] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+[207/208] cd /home/shop-electronic/project/esp32/evm_java/build/esp-idf/esptool_py && /home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/shop-electronic/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shop-electronic/project/esp32/evm_java/build/partition_table/partition-table.bin /home/shop-electronic/project/esp32/evm_java/build/evm_java_launcher.bin
+evm_java_launcher.bin binary size 0x155870 bytes. Smallest app partition is 0x300000 bytes. 0x1aa790 bytes (56%) free.
+[207/208] cd /home/shop-electronic/esp/esp-idf/components/esptool_py && /home/shop-electronic/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -D IDF_PATH=/home/shop-electronic/esp/esp-idf -D "SERIAL_TOOL=/home/shop-electronic/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/shop-electronic/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/shop-electronic/project/esp32/evm_java/build -P /home/shop-electronic/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 evm_java_launcher.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:9e:bd:dd:8b:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00165fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16475...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076a8... (100 %)
+Wrote 26400 bytes (16475 compressed) at 0x00001000 in 1.0 seconds (effective 221.8 kbit/s)...
+Hash of data verified.
+Compressed 1398896 bytes to 851024...
+Writing at 0x00010000... (1 %)
+Writing at 0x0002085a... (3 %)
+Writing at 0x00029c2a... (5 %)
+Writing at 0x0003060f... (7 %)
+Writing at 0x0003a6bd... (9 %)
+Writing at 0x0004524d... (11 %)
+Writing at 0x0004a6b1... (13 %)
+Writing at 0x0005385b... (15 %)
+Writing at 0x0005a130... (17 %)
+Writing at 0x0005fd30... (19 %)
+Writing at 0x00065abe... (21 %)
+Writing at 0x0006d138... (23 %)
+Writing at 0x00073180... (25 %)
+Writing at 0x00078af3... (26 %)
+Writing at 0x0007eb7b... (28 %)
+Writing at 0x0008577e... (30 %)
+Writing at 0x0008c6a6... (32 %)
+Writing at 0x000928c4... (34 %)
+Writing at 0x0009874c... (36 %)
+Writing at 0x0009e3d4... (38 %)
+Writing at 0x000a3e1d... (40 %)
+Writing at 0x000aa5ac... (42 %)
+Writing at 0x000b044b... (44 %)
+Writing at 0x000b7729... (46 %)
+Writing at 0x000bd5c4... (48 %)
+Writing at 0x000c30f0... (50 %)
+Writing at 0x000c8fcd... (51 %)
+Writing at 0x000cf571... (53 %)
+Writing at 0x000d5497... (55 %)
+Writing at 0x000db24d... (57 %)
+Writing at 0x000e0fc9... (59 %)
+Writing at 0x000e704a... (61 %)
+Writing at 0x000ed188... (63 %)
+Writing at 0x000f254a... (65 %)
+Writing at 0x000f78e9... (67 %)
+Writing at 0x000fce45... (69 %)
+Writing at 0x0010227f... (71 %)
+Writing at 0x00107a27... (73 %)
+Writing at 0x0010d2aa... (75 %)
+Writing at 0x00113120... (76 %)
+Writing at 0x0011897f... (78 %)
+Writing at 0x0011e6c4... (80 %)
+Writing at 0x00124f35... (82 %)
+Writing at 0x0012a78e... (84 %)
+Writing at 0x0013081d... (86 %)
+Writing at 0x00137845... (88 %)
+Writing at 0x00140257... (90 %)
+Writing at 0x00148c29... (92 %)
+Writing at 0x0014f2dd... (94 %)
+Writing at 0x00154fcb... (96 %)
+Writing at 0x0015ac0b... (98 %)
+Writing at 0x00160581... (100 %)
+Wrote 1398896 bytes (851024 compressed) at 0x00010000 in 20.4 seconds (effective 548.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 120...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (120 compressed) at 0x00008000 in 0.1 seconds (effective 357.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
